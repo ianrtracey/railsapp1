@@ -10,6 +10,8 @@ group :development, :test do
 	gem 'sqlite3', '1.3.5'
 	gem 'guard-rspec', '0.5.5'
 	gem 'annotate', '~>2.4.1.beta'
+	gem 'rspec-rails', '>= 2.9.0'
+
 end
 
 # Gems used only for assets and not required
@@ -23,11 +25,12 @@ end
 gem 'jquery-rails', '~> 2.0.0'
 
 group :test do
-	gem 'rspec-rails', '2.9.0'
 	gem 'capybara', '1.1.2'
 	gem 'rb-fsevent', '~> 0.9.1', :require => false
 	gem 'growl', '1.0.3'
-  gem 'factory_girl_rails', '1.4.0'
+	gem 'factory_girl_rails', '1.4.0'
+  	gem 'rspec-rails', '>= 2.9.0'
+
 	# System-dependent gems
 end	
 
